@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#display Best School 10 times
+
+C=1
+while [ $C -lt 101 ]
+do
+    if [ $((C%15)) = 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((C%3)) = 0 ]
+    then
+        echo "Fizz"
+    elif [ $((C%5)) = 0 ]
+    then
+        echo "Buzz"
+    else
+        echo "$C"
+    fi
+    let C+=1
+done
