@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-#display current working directory.
+#in a file name
 
-for i in *
-do
-    echo "$i" | cut -d'-' -f2
+tmp="${PWD}/*"
+
+for i in $tmp ; do
+    basename "$i" | cut -d "-" -f2
 done
