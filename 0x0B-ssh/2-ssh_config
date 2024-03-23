@@ -1,4 +1,3 @@
-#testing purposes
 SendEnv LANG LC_*
 HashKnownHosts yes
 GSSAPIAuthentication yes
