@@ -1,3 +1,0 @@
-#/usr/bin/env bash
-# gets an apache server running
-service apache2 start
