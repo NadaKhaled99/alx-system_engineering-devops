@@ -1,4 +1,4 @@
 #/usr/bin/env bash
-#gets an apache server running
-#starts apache2
+# gets an apache server running
+# starts apache2
 service apache2 start
