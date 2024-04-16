@@ -8,11 +8,11 @@ sudo apt-get install -y ufw
 
 echo -e "configure UFW...\n"
 
-#Outgoing and Deny
+# Outgoing and Deny
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
-#Ports
+# Ports
 sudo ufw allow 22
 sudo ufw allow 80
 sudo ufw allow 443
