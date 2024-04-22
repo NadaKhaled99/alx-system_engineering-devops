@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
-Holder Place
+place holder
 """
 
+
 if __name__ == "__main__":
+
     import requests
     from sys import argv
     if len(argv) < 2:
@@ -16,7 +18,6 @@ if __name__ == "__main__":
         .format(argv[1]))
     name = name.json()
     name = name[0]["name"]
-    
     todo = requests.get(
         "https://jsonplaceholder.typicode.com/todos?userId={}".format(argv[1]))
     todo = todo.json()
